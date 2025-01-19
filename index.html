@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="margin: 0">
+    <form onsubmit="handleFormSubmit(event)">
+      <label for="money">Money Spent</label>
+      <input type="number" name="money" id="money" />
+      <label for="description">Description</label>
+      <input type="text" name="description" id="description" />
+      <label for="category">Category</label>
+      <select name="category" id="category">
+        <option value="food">Food</option>
+        <option value="entertainment">Entertainment</option>
+        <option value="fuel">Fuel</option>
+        <option value="bills">Bills</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+    <ul id="user-list">
+        
+    </ul>
+  </body>
+  <script src="index.js"></script>
+</html>

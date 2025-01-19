@@ -1,0 +1,8 @@
+{
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.suggest.showReferences": false,
+    "html.suggest.html5": true,
+    "javascript.suggest.completeJSDocs": false,
+    "javascript.suggest.enabled": false,
+    "typescript.suggest.enabled": false
+}
